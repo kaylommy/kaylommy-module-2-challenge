@@ -19,12 +19,16 @@ h2 {
 }
 
 .my-work {
+    display: block;
+    list-style: none;
     
 }
 
 .contact-section {
+list-style: none;
 
 }
+
 
 
 
