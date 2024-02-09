@@ -1,11 +1,26 @@
 body {
-
+   
 }
 
 header {
+   
 
 }
-
 .header {
+    
+    padding: 20px;
+    text-align: top;
+    color: white;
+    font-size: 30px;
+    background-color:pink;
+    
 
 }
+
+img {
+    width: 1846px;
+    height: 253px;
+    
+}
+
+
