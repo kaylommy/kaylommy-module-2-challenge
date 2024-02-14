@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #FAF9F6;
    
 }
 
@@ -16,55 +16,60 @@ header {
 
 h2 {
     color: navy;
-    
+    font-size: 50px;
+    display:block;
+    justify-content: left;
 }
 
-p {
-    text-align: center;
+article p {
+  text-align: center;
+  font-size: 25px;
 }
 
-.img-container {
-    position: relative;
-    display: inline-block;
-}
-
-
- img{
+ img {
     border: solid #FFB4A2;
-    display: block;
+    display: inline;
     height:auto;
     border-radius: 8px;
-    margin: 10px;
-    margin-left: 50%;
-    
+    position: relative;
+    top: -120px;
+   
 }
+
 img:hover {
     color: white;
     opacity: 0.5;
     transition: 0.5s;
     border-color: #B5838D;
-    
 }
 
-.text {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    background-color: #FFB4A2;
-    color: white;
-    padding: 30px 20px;
-    font-size: 20px;
-    text-align: center;
+ul li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.container {
+    margin: 100px;
+    padding: 100px;
+    border-left:3px solid pink;
+}
+
+.about-me {
+    padding-bottom: 10%;
+    
 }
 
 .my-work {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
-    
-}
+    justify-content: center;
+} 
 
 .contact-section {
-list-style: none;
-
+    list-style: none;
+    text-align: center;
 }
 
 
