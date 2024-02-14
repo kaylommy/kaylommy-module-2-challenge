@@ -15,12 +15,49 @@ header {
 }
 
 h2 {
-    color: navy
+    color: navy;
     
 }
 
-.my-work {
+p {
+    text-align: center;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+
+
+ img{
+    border: solid #FFB4A2;
     display: block;
+    height:auto;
+    border-radius: 8px;
+    margin: 10px;
+    margin-left: 50%;
+    
+}
+img:hover {
+    color: white;
+    opacity: 0.5;
+    transition: 0.5s;
+    border-color: #B5838D;
+    
+}
+
+.text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #FFB4A2;
+    color: white;
+    padding: 30px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.my-work {
+    display: inline-block;
     list-style: none;
     
 }
