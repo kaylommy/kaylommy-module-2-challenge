@@ -18,7 +18,7 @@ h2 {
     color: navy;
     font-size: 50px;
     display:block;
-    justify-content: left;
+    /* remove this laterjustify-content: left; */
 }
 
 article p {
@@ -31,7 +31,6 @@ article p {
     display: inline;
     height:auto;
     border-radius: 8px;
-    position: relative;
     margin: 10px;
 }
 
@@ -52,6 +51,7 @@ ul li {
     margin: 100px;
     padding: 100px;
     border-left:3px solid pink;
+    margin-left: 20%;
 }
 
 .about-me {
@@ -68,6 +68,15 @@ ul li {
 .contact-section {
     list-style: none;
     text-align: center;
+}
+
+.heading-container {
+    float:left;
+    padding-left: 80px;
+}
+
+h2.heading-container {
+    text-align: right;
 }
 
 
