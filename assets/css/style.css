@@ -4,6 +4,7 @@ body {
 }
 
 header {
+    border: solid pink;
     padding: 45px;
     text-align: right;
     color: rgb(17, 11, 1);
