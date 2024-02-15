@@ -1,6 +1,7 @@
 body {
     background-color: #FAF9F6;
-    font-family:'Calibri';
+    font-family:"Poppins","sans-serif";
+    position: sticky;
 }
 
 header {
@@ -12,13 +13,18 @@ header {
     background-image: url("../../images/cat-background-3.jpg");
     background-repeat: none;
     background-size: cover;  
+    height: 25vh;
 }
 
 h2 {
     color: navy;
     font-size: 50px;
     display:block;
-    /* remove this laterjustify-content: left; */
+}
+
+.Kayla {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
 }
 
 article p {
@@ -28,10 +34,12 @@ article p {
 
  img {
     border: solid #FFB4A2;
-    display: inline;
-    height:auto;
-    border-radius: 8px;
-    margin: 10px;
+    display: inline-block;
+    max-height: 433px;
+    max-width: 704px;
+    border-radius: 20px;
+    margin:20px;
+ 
 }
 
 img:hover {
@@ -52,6 +60,7 @@ ul li {
     padding: 100px;
     border-left:3px solid pink;
     margin-left: 20%;
+    display: flex;
 }
 
 .about-me {
@@ -62,7 +71,7 @@ ul li {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    justify-content: center;
+    justify-content: left;
 } 
 
 .contact-section {
@@ -73,6 +82,40 @@ ul li {
 .heading-container {
     float:left;
     padding-left: 80px;
+}
+
+img {
+    display:inline-block;
+   
+}
+
+
+
+.img-1 {
+    height: 700px;
+    width: 700px;
+}
+
+.img-2 {  
+    max-width: auto;
+    height: 185px;
+    width: 500px;
+    float: left;
+    bottom: 2px;
+    
+}
+
+.img-3 {
+    width: 500px;
+    height: 185px;
+    bottom: 1px;
+    position: relative;
+    float: right;
+
+}
+
+.navbar {
+    float:right;
 }
 
 
