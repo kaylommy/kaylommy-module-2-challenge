@@ -1,5 +1,5 @@
 body {
-    background-color: #FAF9F6;
+    background-color: #FEFEFA;
     font-family:"Poppins","sans-serif";
     position: sticky;
 }
@@ -13,7 +13,7 @@ header {
     background-image: url("../../images/cat-background-3.jpg");
     background-repeat: none;
     background-size: cover;  
-    height: 25vh;
+    height: 30vh;
 }
 
 h2 {
@@ -61,6 +61,7 @@ ul li {
     border-left:3px solid pink;
     margin-left: 20%;
     display: flex;
+    position: relative;
 }
 
 .about-me {
@@ -75,7 +76,6 @@ ul li {
 } 
 
 .contact-section {
-    list-style: none;
     text-align: center;
 }
 
@@ -84,23 +84,16 @@ ul li {
     padding-left: 80px;
 }
 
-img {
-    display:inline-block;
-   
-}
-
-
-
 .img-1 {
     height: 700px;
     width: 700px;
 }
 
+
 .img-2 {  
     max-width: auto;
     height: 185px;
     width: 500px;
-    float: left;
     bottom: 2px;
     
 }
@@ -110,17 +103,55 @@ img {
     height: 185px;
     bottom: 1px;
     position: relative;
-    float: right;
 
 }
 
 .navbar {
-    float:right;
+    float: right;
+    list-style: none;
+    
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
 
+a:hover {
+    color: pink;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
 
+html {
+    scroll-behavior: smooth;
+}
 
+figcaption {
+font-size: 30px;
+}
+
+@media screen and (max-width: 732px) {
+    h2 {
+        text-decoration: underline;
+    }
+
+    .container {
+        border-left: none;
+    }
+
+    header {
+        background-size:contain;
+        font-size: 20px;
+    }
+
+    ul li {
+        display: block;
+        font-size: 20px;
+    }
+
+    }
 
 
 
